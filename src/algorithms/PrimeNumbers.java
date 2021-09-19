@@ -2,6 +2,9 @@ package algorithms;
 
 public class PrimeNumbers {
 
+	/**
+	 * finds all the prime numbers in the range
+	 */
 	public static void primeNumber() {
 
 		System.out.println("Prime numbers between 0 and 1000 are:");

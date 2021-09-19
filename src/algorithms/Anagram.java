@@ -8,6 +8,9 @@ public class Anagram {
 	static String str1, str2;
 	static Scanner r = new Scanner(System.in);
 
+	/**
+	 * checks if the strings are anagram or not
+	 */
 	public static void anagram() {
 		
 		System.out.println("Enter the first string");

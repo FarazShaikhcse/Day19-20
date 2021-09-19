@@ -8,6 +8,9 @@ public class BubbleSort {
 	static int n;
 	static Scanner r = new Scanner(System.in);
 
+	/**
+	 * prompts the user for input data 
+	 */
 	public static void readArray() {
 		System.out.println("Enter the number of elements in the array");
 		n = r.nextInt();
@@ -21,6 +24,9 @@ public class BubbleSort {
 		print();
 	}
 
+	/**
+	 * sorts the array in ascending order
+	 */
 	public static void bubbleSort() {
 		int len = arr.length;
 		int temp;
@@ -40,6 +46,9 @@ public class BubbleSort {
 
 	}
 
+	/**
+	 * prints all elements of array
+	 */
 	private static void print() {
 		for (int i : arr) {
 			System.out.print(i + " ");
