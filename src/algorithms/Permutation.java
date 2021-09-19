@@ -2,6 +2,11 @@ package algorithms;
 
 public class Permutation {
 	  
+        /**
+         * @param str
+         * @param ans
+         * prints all the posiible permutations of a string using recursion
+         */
         static void printPermutation(String str, String ans)
     {
   
